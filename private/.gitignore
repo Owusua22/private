@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Electron build output
+dist/
+*.exe
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log

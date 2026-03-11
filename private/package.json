@@ -1,0 +1,27 @@
+{
+  "name": "private",
+  "version": "1.0.0",
+  "description": "Webview Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.0.0",
+    "electron-builder": "^26.8.1"
+  },
+"build": {
+  "appId": "com.private.app",
+  "productName": "PrivateApp",
+  "win": {
+    "target": "nsis",
+    "icon": "assets/icon.ico"
+  }
+}
+}
