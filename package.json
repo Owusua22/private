@@ -11,19 +11,20 @@
     "electron": "^41.0.0",
     "electron-builder": "^26.8.1"
   },
-  "build": {
-    "appId": "com.private.app",
-    "productName": "PrivateApp",
-    "directories": {
-      "output": "dist"
-    },
-    "files": [
-      "main.js",
-      "package.json",
-      "assets/**/*"
-    ],
-    "win": {
-      "target": "nsis"
-    }
+"build": {
+  "appId": "com.private.app",
+  "productName": "PrivateApp",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "main.js",
+    "package.json",
+    "assets/**/*"
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "assets/icon.ico"
   }
+}
 }
